@@ -1,0 +1,67 @@
+type: "MARKDOWN_NOTE"
+folder: "735b0bb2bf11c3f27ac8"
+title: "Markdown How-To"
+content: '''
+  # Markdown How-To
+  # Header 1 "#"
+  ## Header 2 "##"
+  ### Header 3 "###"
+  --- 
+  ~~strikethrough~~
+  linebreak "- - -"
+  *italics* via "* *" OR _italics_ via "_ _"
+  **BOLD** __TEST__ **BOLD** **bold**
+  [For URLs](http://ibrahimsaberi.com) do "[head] ( url )"
+  - this is a list
+  - 
+  - [x] this is a checked box
+  - [ ] this is an unchecked box
+  
+  ==highlight==
+  
+  footnote[^1]
+  [^1]: This is a footnote
+  
+  longnote[^longnote]
+  [^longnote]: This is a longnote
+  
+  inline `code`
+  
+  * list item
+  	* list item 2
+  		* third nested item
+  ```java
+  //you can put a
+  //code snippet here
+  System.out.println("Hello World");
+  ```
+  
+  [you CANT use reference links][ref]
+  [ref]: http://www.google.com/
+  
+  >make a blockquote
+  >asdfasdf
+  >afasdf
+  
+  asdf
+  
+  double space  
+  to make a soft break after a line
+  
+  ![images work too](http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/16/165d919e148cce7c9677622b09779e8b0635da3d_full.jpg)
+  
+  |tables|somehow|work|
+  |:------|:-------:|----:|
+  |this  |  is   |cool|
+  
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+  " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+  alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+'''
+tags: [
+  "How-to"
+]
+isStarred: true
+isTrashed: false
+createdAt: "2017-08-18T07:32:36.367Z"
+updatedAt: "2017-08-29T04:16:50.910Z"

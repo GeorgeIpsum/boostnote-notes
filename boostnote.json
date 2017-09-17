@@ -1,0 +1,35 @@
+{
+  "folders": [
+    {
+      "key": "735b0bb2bf11c3f27ac8",
+      "color": "#1278BD",
+      "name": "Default"
+    },
+    {
+      "key": "10dee89e4e96c3c3135f",
+      "color": "#FF8E00",
+      "name": "Medical Anthro"
+    },
+    {
+      "key": "10da02197944423d3888",
+      "color": "#B013A4",
+      "name": "Topics in American Politics"
+    },
+    {
+      "key": "071e5170ca09b2db4fe9",
+      "color": "#d0021b",
+      "name": "Code Blocks"
+    },
+    {
+      "key": "36c189d7a40bb9ea33ba",
+      "color": "#417505",
+      "name": "Email Drafts"
+    },
+    {
+      "key": "7f7ccf74a98a92721020",
+      "color": "#E8D252",
+      "name": "CSE 132"
+    }
+  ],
+  "version": "1.0"
+}
