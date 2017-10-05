@@ -12,18 +12,13 @@
     },
     {
       "key": "10da02197944423d3888",
-      "color": "#B013A4",
+      "color": "#8b572a",
       "name": "Topics in American Politics"
     },
     {
-      "key": "071e5170ca09b2db4fe9",
-      "color": "#d0021b",
-      "name": "Code Blocks"
-    },
-    {
-      "key": "36c189d7a40bb9ea33ba",
-      "color": "#417505",
-      "name": "Email Drafts"
+      "key": "b2018982f772e92139e0",
+      "color": "#50e3c2",
+      "name": "Gateway to Development"
     },
     {
       "key": "7f7ccf74a98a92721020",
@@ -31,9 +26,19 @@
       "name": "CSE 132"
     },
     {
+      "key": "071e5170ca09b2db4fe9",
+      "color": "#d0021b",
+      "name": "Code Blocks"
+    },
+    {
       "key": "f3002baa40a1efa4558c",
       "color": "#9013fe",
       "name": "DSP"
+    },
+    {
+      "key": "36c189d7a40bb9ea33ba",
+      "color": "#417505",
+      "name": "Email Drafts"
     }
   ],
   "version": "1.0"
