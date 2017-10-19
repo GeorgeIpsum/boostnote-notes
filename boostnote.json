@@ -39,6 +39,11 @@
       "key": "36c189d7a40bb9ea33ba",
       "color": "#417505",
       "name": "Email Drafts"
+    },
+    {
+      "key": "cf698c84a59b900f259d",
+      "color": "#9b9b9b",
+      "name": "Books"
     }
   ],
   "version": "1.0"

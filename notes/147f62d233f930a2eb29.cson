@@ -1,0 +1,16 @@
+type: "SNIPPET_NOTE"
+folder: "7f7ccf74a98a92721020"
+title: "Assignment 5"
+description: "Assignment 5"
+snippets: [
+  {
+    name: "SerialComm"
+    mode: "text"
+    content: ""
+  }
+]
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-10-05T18:37:58.961Z"
+updatedAt: "2017-10-05T18:38:22.838Z"
