@@ -1,0 +1,63 @@
+createdAt: "2018-03-22T17:01:04.431Z"
+updatedAt: "2018-03-22T17:02:32.684Z"
+type: "SNIPPET_NOTE"
+folder: "071e5170ca09b2db4fe9"
+title: "function for populating the \"Should Have\" column in CRM"
+description: "function for populating the \"Should Have\" column in CRM"
+snippets: [
+  {
+    name: "function myFunction()"
+    mode: "text"
+    content: '''
+      function myFunction() {
+        var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Students");
+        //column numbers (using Column A == 1)
+        var dateJoinedCol = 3;
+        var vidTypeCol = 5;
+        var shouldHaveCol = 7;
+        var springBreakCols = 21; //this is used for two cols, 21 and 22
+        var endDateCol = 26;
+        var today = sheet.getRange(3, 27).getValue(); //column Z on the sheet has a '=TODAY()' function in pure number/ integer form
+        var range = sheet.getRange(2, 1, 300, 27); //relevant range
+        
+        //keep going through the rows until one without a person is reached
+        for(var i=1; range.getCell(i, 2).getValue() != ""; i++) {
+          //get the values of all these things
+          var vidType = range.getCell(i, vidTypeCol).getValue();
+          var dateJoined = range.getCell(i, dateJoinedCol).getValue();
+          var breakStart = range.getCell(i, springBreakCols).getValue();
+          var breakEnd = range.getCell(i, springBreakCols+1).getValue();
+          var endDate = range.getCell(i, endDateCol).getValue();
+          
+          var daysToFilm = 0;
+          //3 situations arise in determinign days to film. this could probably be cleaner but oh well
+          if(dateJoined < breakStart) {
+            daysToFilm = endDate - dateJoined - (breakEnd - breakStart);
+          }
+          if(dateJoined >= breakStart && dateJoined <= breakEnd) {
+            daysToFilm = endDate - breakEnd;
+          }
+          if(dateJoined > breakEnd) {
+            daysToFilm = endDate - dateJoined;
+          }
+          
+          var vidsOwed = 0;
+          var vidsPerDay = vidType/daysToFilm; //use the rate found for videos per day and added that from day 1 of filming to today, not counting when they're in spring break
+          for(var j=dateJoined; j<today; j++) {
+            if(j >= breakStart && j <= breakEnd) {
+              //do nothing
+            } else {
+              vidsOwed += vidsPerDay;
+            }
+          }
+          var shouldHaveRange = range.getCell(i, shouldHaveCol);
+          shouldHaveRange.setValue(vidsOwed);
+        }
+      }
+      
+    '''
+  }
+]
+tags: []
+isStarred: false
+isTrashed: false

@@ -6,6 +6,11 @@
       "name": "Default"
     },
     {
+      "key": "fe559436bd547e5b239b",
+      "color": "#E8D252",
+      "name": "Modern Chinese Lit"
+    },
+    {
       "key": "10dee89e4e96c3c3135f",
       "color": "#FF8E00",
       "name": "Medical Anthro"
@@ -21,19 +26,9 @@
       "name": "Gateway to Development"
     },
     {
-      "key": "7f7ccf74a98a92721020",
-      "color": "#E8D252",
-      "name": "CSE 132"
-    },
-    {
       "key": "071e5170ca09b2db4fe9",
       "color": "#d0021b",
       "name": "Code Blocks"
-    },
-    {
-      "key": "f3002baa40a1efa4558c",
-      "color": "#9013fe",
-      "name": "DSP"
     },
     {
       "key": "36c189d7a40bb9ea33ba",
@@ -44,6 +39,11 @@
       "key": "cf698c84a59b900f259d",
       "color": "#9b9b9b",
       "name": "Books"
+    },
+    {
+      "key": "2def961904e87400025b",
+      "color": "#E10051",
+      "name": "Blogge"
     }
   ],
   "version": "1.0"
