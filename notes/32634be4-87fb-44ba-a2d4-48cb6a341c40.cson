@@ -1,0 +1,21 @@
+createdAt: "2018-07-10T20:22:09.372Z"
+updatedAt: "2018-07-10T20:29:47.322Z"
+type: "MARKDOWN_NOTE"
+folder: "b162422a037785cd098e"
+title: "TODO"
+content: '''
+  ## TODO
+  ### Video Metrics
+  - [ ] % watched
+  - [ ] Time
+  - [ ] Creator Variables
+  - [ ] Concurrent Videos\\
+    - [x] create function
+  - [ ] Common/ Unique
+  
+  ### Category Metrics
+  - [ ] % 
+'''
+tags: []
+isStarred: false
+isTrashed: false
