@@ -1,9 +1,10 @@
 createdAt: "2018-07-10T20:22:09.372Z"
-updatedAt: "2018-07-10T20:29:47.322Z"
+updatedAt: "2018-07-10T21:13:07.723Z"
 type: "MARKDOWN_NOTE"
 folder: "b162422a037785cd098e"
-title: "TODO"
+title: "Metrics"
 content: '''
+  # Metrics
   ## TODO
   ### Video Metrics
   - [ ] % watched
@@ -14,8 +15,26 @@ content: '''
   - [ ] Common/ Unique
   
   ### Category Metrics
-  - [ ] % 
+  - [ ] 6 Regular
+  - [ ] Avg. Time
+  - [ ] Creator Variables
+  
+  ### Creator Metrics
+  - [ ] 6 Regular
+  - [ ] School Yr
+  - [ ] Sex
+  - [ ] Academic Interests
+  - [ ] Extracurriculars
+  - [ ] Category spread
+  - [ ] Avg. Video length
+  - [ ] Style
+  
+  ### College Metrics
+  - [ ] 6 Regular
 '''
-tags: []
+tags: [
+  "metrics"
+  "todo"
+]
 isStarred: false
 isTrashed: false
