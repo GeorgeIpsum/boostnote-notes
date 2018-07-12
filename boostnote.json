@@ -6,49 +6,19 @@
       "name": "Default"
     },
     {
-      "key": "fe559436bd547e5b239b",
-      "color": "#E8D252",
-      "name": "Modern Chinese Lit"
-    },
-    {
-      "key": "10dee89e4e96c3c3135f",
-      "color": "#FF8E00",
-      "name": "Medical Anthro"
-    },
-    {
-      "key": "10da02197944423d3888",
-      "color": "#8b572a",
-      "name": "Topics in American Politics"
-    },
-    {
-      "key": "b2018982f772e92139e0",
-      "color": "#50e3c2",
-      "name": "Gateway to Development"
+      "key": "b162422a037785cd098e",
+      "color": "#9013fe",
+      "name": "Viewify"
     },
     {
       "key": "071e5170ca09b2db4fe9",
-      "color": "#d0021b",
+      "color": "#7ed321",
       "name": "Code Blocks"
     },
     {
-      "key": "36c189d7a40bb9ea33ba",
-      "color": "#417505",
-      "name": "Email Drafts"
-    },
-    {
-      "key": "cf698c84a59b900f259d",
-      "color": "#9b9b9b",
-      "name": "Books"
-    },
-    {
-      "key": "2def961904e87400025b",
+      "key": "3cd38cae717eddf0d743",
       "color": "#E10051",
-      "name": "Blogge"
-    },
-    {
-      "key": "b162422a037785cd098e",
-      "color": "#FF8E00",
-      "name": "Viewify"
+      "name": "_old"
     }
   ],
   "version": "1.0"
